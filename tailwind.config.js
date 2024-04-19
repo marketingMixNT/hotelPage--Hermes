@@ -18,7 +18,7 @@ export default {
                 secondary: {
                     400: "#202e20",
                 },
-                bgPrimary: "#fdf0e2",
+                bgPrimary: "#fffcf4",
                 bgSecondary: "#202e20",
 
                 fontWhite:"#ffffff",
