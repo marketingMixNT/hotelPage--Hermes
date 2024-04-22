@@ -8,8 +8,9 @@ export default {
     theme: {
         extend: {
             screens: {
-                xs: "390px",
-                max: "2200px",
+                'xs': "390px",
+                '3xl':'1920px',
+                'max': "2200px",
             },
             colors: {
                 primary: {

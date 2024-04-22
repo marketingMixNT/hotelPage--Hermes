@@ -23,7 +23,7 @@ window.addEventListener(
 
         if (
             scrollPosition >=
-            heroSection.getBoundingClientRect().bottom + window.scrollY
+            300
         ) {
             navbar.classList.add("bg-secondary-400");
         } else {

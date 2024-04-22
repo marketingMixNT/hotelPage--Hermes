@@ -1,32 +1,48 @@
-<section class="px-40 pt-40 pb-20 bg-bgPrimary ">
+<x-section class="bg-bgPrimary 2xl:pt-40">
 
-    <div class="grid grid-cols-12 ">
-     <p class="col-start-1 col-end-7 font-headingSecondary font-light text-fontPrimary text-4xl mt-24 leading-snug tracking-wide"><span class="font-normal">  PRZYTULNE SCHRONIENIE W GÓRACH – WITAJ W GÓRSKIM AZYLU, GDZIE NATURA KOI DUSZĘ.</span>
-         Miłośnicy natury i spokoju znajdą tu swoje sanktuarium, gdzie tradycja miesza się z nowoczesnością w harmonijnym odosobnieniu. <span class="font-normal"> Górski Azyl</span>, położony w malowniczym zakątku gór, to miejsce, gdzie można na nowo połączyć się z przyrodą, zainspirować się i nawiązać trwałe więzi.</p>
+    <x-grid>
+        
+     <p class="xl:col-start-1 xl:col-end-7 font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-snug tracking-wide mb-12"><span class="font-normal uppercase"> Zapraszamy do Królewskiego Szczytu, gdzie luksus spotyka górską tradycję w sercu malowniczego Zakopanego.</span>
+        Nasz pięciogwiazdkowy hotel oferuje wyjątkowe doświadczenie wypoczynku w otoczeniu majestatycznych Tatr. Każdy detal naszego hotelu został starannie zaprojektowany, aby zapewnić naszym gościom niezapomniane wrażenia i komfort na najwyższym poziomie.</p>
  
-     <img src="{{asset('assets/images/1.jpeg')}}" class="col-start-9 col-end-13 rounded-lg max-h-[1000px] w-full object-cover"></img>
+        <div class="xl:col-start-8 2xl:col-start-9 xl:col-end-13 pl-10 sm:pl-20 md:pl-40 xl:pl-0 max-h-[1000px] w-full mb-10 xl:mb-0" >
+
+            <img src="{{asset('assets/images/1.jpeg')}}" alt="wnętrze hotelu" class="h-full w-full object-cover rounded-lg" ></img>
+        </div>
+
+        <div class="xl:col-start-1 xl:col-end-7  max-h-[900px] w-full  xl:-mt-24 2xl:-mt-42  max:-mt-72 pr-10 sm:pr-20 md:pr-40 xl:pr-0">
+            <img src="{{asset('assets/images/2.jpeg')}}" alt="wnętrze hotelu" class=" rounded-lg  w-full object-cover h-full"></img>
+        </div>
      
-     <img src="{{asset('assets/images/2.jpeg')}}" class="col-start-1 col-end-7 rounded-lg min-h-[500px] w-full object-cover -mt-72"></img>
-     <img src="{{asset('assets/images/3.jpeg')}}" class="col-start-8 col-end-11 rounded-lg min-h-[500px]  object-cover mt-40 "></img>
- 
- </div>
- 
- 
- </section>
- 
- <section class="px-40 pt-40 pb-40 bg-bgPrimary ">
- 
-     <div class="grid grid-cols-12 ">
-         <img src="{{asset('assets/images/4.jpeg')}}" class="col-start-1 col-end-8 rounded-lg min-h-[600px] w-full object-cover "></img>
-         <div class="col-start-9 col-end-13 mt-24 ml-20 flex flex-col gap-4">
- <h2 class=" font-headingSecondary  text-fontPrimary text-4xl  leading-snug tracking-wide">Ciesz się Naturą i Komfortem w Górskim Azylu</h2>
-             <p class=" font-text font-light text-fontPrimary text leading-normal tracking-wide">
-                 Zapraszamy do naszego Górskiego Azylu, gdzie harmonia i spokój gór otula każdego gościa. Nasze osiem kameralnych pokoi, każdy urządzony z myślą o komforcie i stylu, oferują niepowtarzalne widoki na rozległe lasy i szczyty. Dwa przestronne salony z kominkami są idealnym miejscem na chłodne wieczory, tworząc ciepłą atmosferę dla rozmów i relaksu.
-             </p>
-             <p class=" font-text font-light text-fontPrimary text leading-normal tracking-wide">
-                 Podążaj ścieżkami prowadzącymi do ukrytych zakątków naszego ogrodu, gdzie możesz cieszyć się ciszą lub znaleźć inspirację w otoczeniu dzikiej przyrody. Nasz taras widokowy oferuje niezapomniane panoramy górskie, idealne do kontemplacji lub porannych sesji jogi. W Górskim Azylu łączymy lokalne tradycje z nowoczesnym komfortem, tworząc przestrzeń, w której można naładować baterie i nawiązać nowe przyjaźnie.
-             </p>
-         </div>
+     <div class="xl:col-start-8 xl:col-end-11 mr-24  max-h-[500px] w-full mt-10 xl:mb-32 xl:mt-80 pl-16 sm:pl-32 md:pl-60 xl:pl-0">
+
+         <img src="{{asset('assets/images/3.jpeg')}}" alt="wnętrze hotelu" class="rounded-lg  w-full  object-cover h-full "></img>
      </div>
  
- </section>
+    </x-grid>
+</x-section>
+ 
+
+
+
+ 
+ <x-section class="bg-bgPrimary 2xl:pt-20 pb-40">
+ 
+     <x-grid>
+
+        <div class="xl:col-start-1 xl:col-end-8 min-h-[900px] w-full  order-1 xl:order-none mt-10 xl:mt-0">
+
+            <img src="{{asset('assets/images/4.jpeg')}}" alt="wnętrze hotelu" class=" rounded-lg  w-full h-full object-cover "></img>
+        </div>
+         <div class="xl:col-start-8 2xl:col-start-9 xl:col-end-13 xl:mt-24  mr-0 sm:mr-20 md:mr-40 xl:mr-0 xl:ml-20 flex flex-col gap-8">
+ <h2 class="heading">Smakowite Chwile i Magiczne Wieczory w Królewskim Szczycie</h2>
+             <p class="text">
+                Hotel Królewski Szczyt w Zakopanem to <span class="uppercase font-semibold">perła polskiej hotelarstwa</span>, oferująca luksus i relaks w sercu Tatr. Elegancja pięciogwiazdkowego zakwaterowania łączy się z ciepłem zakopiańskiej tradycji. Od wyrafinowanych wnętrz, przez ofertę spa, po widoki na góry – wszystko zostało dopracowane, by zapewnić niezapomniane wrażenia i komfort.
+             </p>
+             <p class="text">
+                <span class="uppercase font-semibold">Bar w Królewskim Szczycie</span> to idealne miejsce na wieczorny relaks. Oferujemy szeroki wybór lokalnych i międzynarodowych napojów, w tym wyselekcjonowane wina i regionalne wódki. W przytulnej atmosferze, przy blasku kominka, można cieszyć się wyjątkowymi koktajlami przygotowywanymi przez doświadczonych barmanów. To także przestrzeń, gdzie można nawiązać nowe znajomości i delektować się chwilą spokoju.
+             </p>
+         </div>
+        </x-grid>
+ 
+ </x-section>

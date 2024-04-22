@@ -5,10 +5,23 @@
 @tailwind utilities;
 
 
-
+h1,h2,h3,h4,h5,h6,a{
+  @apply font-primary
+}
+p{
+  @apply font-text
+}
 
 .link{
   @apply uppercase text-fontWhite font-primary text-sm mt-1 hover:text-fontThird duration-500
+}
+
+.heading{
+  @apply font-primary font-semibold md:font-normal  text-fontPrimary text-2xl md:text-3xl 2xl:text-4xl  leading-snug tracking-wide
+}
+.text{
+  @apply font-text font-light text-fontPrimary  leading-normal tracking-wide text-base xl:text-sm 3xl:text-base
+
 }
 
 

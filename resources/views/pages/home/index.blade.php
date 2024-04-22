@@ -4,7 +4,7 @@
     @section('description',
         'Odkryj luksus i komfort w Królewskim Szczycie - Twoim idealnym schronieniu w sercu Zakopanego. Rezerwuj teraz!')
 
-        @include('pages.home.sections.hero')
+        @include('pages.home.sections.hero-header')
         @include('pages.home.sections.about')
         @include('pages.home.sections.hero-second')
         @include('pages.home.sections.description')
