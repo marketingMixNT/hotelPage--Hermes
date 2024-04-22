@@ -7,6 +7,11 @@
 
 
 
+.link{
+  @apply uppercase text-fontWhite font-primary text-sm mt-1 hover:text-fontThird duration-500
+}
+
+
 .menu-box::after{
     content: '';
     border: 1px solid #b08353;

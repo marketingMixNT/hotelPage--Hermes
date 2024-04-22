@@ -28,9 +28,11 @@ export default {
                 fontThird:"#676e5c"
             },
             fontFamily:{
-              headingPrimary:[ "Nunito Sans", "sans-serif"],
+            //   headingPrimary:[ "Nunito Sans", "sans-serif"],
               headingSecondary:[  "Maitree", "serif"],
-              text:[ "Roboto Slab", "serif"]
+              text:[ "Roboto Slab", "serif"],
+              primary:[  "Maitree", "serif"],
+              secondary:[  "Roboto Slab", "serif"],
             }
         },
     },
