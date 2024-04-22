@@ -1,4 +1,4 @@
-<header class="w-full flex justify-between items-center fixed left-0 top-0 right-0 z-50 py-4 px-16 ">
+<header class="w-full flex justify-between items-center fixed left-0 top-5 right-0 z-50 py-4 px-16 ">
 
     <div>
 

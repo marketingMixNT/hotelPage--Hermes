@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    @include('shared.preloader')
     @include('shared.header')
     <main>
 

@@ -14,10 +14,10 @@
  
  </section>
  
- <section class="px-40 pt-40 pb-20 bg-bgPrimary ">
+ <section class="px-40 pt-40 pb-40 bg-bgPrimary ">
  
      <div class="grid grid-cols-12 ">
-         <img src="{{asset('assets/images/2.jpeg')}}" class="col-start-1 col-end-8 rounded-lg min-h-[600px] w-full object-cover "></img>
+         <img src="{{asset('assets/images/4.jpeg')}}" class="col-start-1 col-end-8 rounded-lg min-h-[600px] w-full object-cover "></img>
          <div class="col-start-9 col-end-13 mt-24 ml-20 flex flex-col gap-4">
  <h2 class=" font-headingSecondary  text-fontPrimary text-4xl  leading-snug tracking-wide">Ciesz się Naturą i Komfortem w Górskim Azylu</h2>
              <p class=" font-text font-light text-fontPrimary text leading-normal tracking-wide">

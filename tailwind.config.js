@@ -20,6 +20,7 @@ export default {
                 },
                 bgPrimary: "#fffcf4",
                 bgSecondary: "#202e20",
+                bgThird: "#fdf0e2",
 
                 fontWhite:"#ffffff",
                 fontPrimary:"#b08353",
