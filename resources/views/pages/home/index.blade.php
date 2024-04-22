@@ -1,14 +1,15 @@
 <x-layouts.default>
 
-    @section('title', 'Górski Azyl')
+    @section('title', 'Królewski Szczyt')
     @section('description',
-        'Odkryj Górski Azyl – Twoje idealne miejsce na wypoczynek w sercu gór. Ciesz się ciszą,
-        przyrodą i komfortem naszego domku. Idealny na rodzinne wakacje lub romantyczny wyjazd.')
+        'Odkryj luksus i komfort w Królewskim Szczycie - Twoim idealnym schronieniu w sercu Zakopanego. Rezerwuj teraz!')
 
         @include('pages.home.sections.hero')
         @include('pages.home.sections.about')
         @include('pages.home.sections.hero-second')
         @include('pages.home.sections.description')
         @include('pages.home.sections.cottages')
+        @include('pages.home.sections.restaurant-menu')
+        @include('pages.home.sections.restaurant-bar')
 
     </x-layouts.default>

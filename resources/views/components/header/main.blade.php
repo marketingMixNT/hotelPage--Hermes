@@ -1,4 +1,4 @@
-<header class="w-full flex justify-between items-center fixed left-0 top-5 right-0 z-50 py-4 px-16 ">
+<header id="header" class="w-full flex justify-between items-center fixed left-0 top-0 right-0 z-40 py-6 px-16 duration-300 ">
 
     <div>
 
@@ -18,8 +18,8 @@
         </div>
 
     </div>
-    <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo Górski Azyl"
-            class="w-32 hover:scale-95 duration-500 absolute top-3 left-1/2 transform -translate-x-1/2"></a>
+    <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo "
+            class="w-28 hover:scale-95 duration-500 absolute top-3 left-1/2 transform -translate-x-1/2"></a>
     <div>
 
 

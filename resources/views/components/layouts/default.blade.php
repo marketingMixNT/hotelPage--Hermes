@@ -15,23 +15,26 @@
     <link rel="canonical" href="{{ url()->current() }}" />
 
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Slab:wght@100..900&display=swap"
-        rel="stylesheet">
+  @include('partials.fonts')
 
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 
-<body>
-    @include('shared.preloader')
-    @include('shared.header')
-    <main>
+<body class="overflow-x-hidden">
+    
 
-        {{ $slot }}
-    </main>
-    @include('shared.footer')
+        <x-preloader/>
+        <x-header.main/>
+        <main>
+            
+            {{ $slot }}
+
+            
+        </main>
+        <x-footer.main/>
+
+
+    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </body>
 
 </html>

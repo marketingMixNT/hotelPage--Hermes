@@ -1,11 +1,9 @@
 import './bootstrap';
-import './partials/hamburger'
-import './partials/preloader'
-import './partials/smoothScroll'
-import './partials/swiper'
-
-
-
+import './Partials/hamburger'
+import './Partials/preloader'
+import './Partials/smoothScroll'
+import './Partials/headerScroll'
+import './Partials/swiper'
 
 
 

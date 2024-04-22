@@ -1,4 +1,4 @@
-<section
+<section id="header-hero"
 class="relative h-screen w-full bg-gray-300 bg-blend-multiply bg-center bg-cover bg-fixed
 bg-[url('/public/assets/images/hero--mobile.jpeg')]
 md:bg-[url('/public/assets/images/hero--desktop.jpeg')]
@@ -12,7 +12,7 @@ md:bg-[url('/public/assets/images/hero--desktop.jpeg')]
 
     <a href=""
         class="px-8 py-3  uppercase font-text bg-[#b0835370] hover:bg-primary-400 font-light text-sm duration-500 text-white tracking-wider rounded-lg">Zobacz
-        Nasze Domki</a>
+        nasze pokoje</a>
 </div>
 
 </section>
