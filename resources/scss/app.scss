@@ -19,6 +19,9 @@ p {
 
 .link {
     @apply uppercase text-fontWhite font-primary text-sm mt-1 hover:text-fontThird duration-500;
+    &--gold{
+      @apply text-fontPrimary
+    }
     &-dotted {
         @apply font-text font-semibold border-b border-dashed pb-1 border-fontPrimary text-fontPrimary text-sm leading-normal tracking-wide hover:text-fontThird duration-500 uppercase;
         &--white {
