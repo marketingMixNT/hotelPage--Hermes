@@ -30,7 +30,7 @@
  
      <x-grid>
 
-        <div class="xl:col-start-1 xl:col-end-8 min-h-[500px] xl:min-h-[900px] w-full  order-1 xl:order-none mt-10 xl:mt-0">
+        <div class="xl:col-start-1 xl:col-end-8 min-h-[500px] xl:min-h-[1000px] w-full  order-1 xl:order-none mt-10 xl:mt-0">
 
             <img src="{{asset('assets/images/4.jpeg')}}" alt="wnętrze hotelu" class=" rounded-lg  w-full h-full object-cover "></img>
         </div>

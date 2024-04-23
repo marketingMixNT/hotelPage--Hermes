@@ -27,14 +27,23 @@ p {
         &--white {
             @apply border-fontWhite text-fontWhite;
         }
+        &--pink{
+          @apply text-fontSecondary border-fontSecondary
+        }
     }
 }
 
 .heading {
     @apply font-primary font-semibold md:font-normal  text-fontPrimary text-2xl md:text-3xl 2xl:text-4xl  leading-snug tracking-wide;
+    &--pink{
+      @apply text-fontSecondary
+    }
 }
 .text {
     @apply font-text font-light text-fontPrimary  leading-normal tracking-wide text-base xl:text-sm 3xl:text-base;
+    &--pink{
+      @apply text-fontSecondary
+    }
 }
 
 .menu-box::after {
