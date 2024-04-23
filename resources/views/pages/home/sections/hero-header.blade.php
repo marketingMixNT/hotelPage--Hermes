@@ -6,7 +6,7 @@ md:bg-[url('/public/assets/images/hero--desktop.jpeg')]
 
 <div
     class="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-fontWhite flex flex-col xs:items-center gap-4 text-center">
-    <h1 class="text-4xl lg:text-5xl  uppercase font-light ">Królewski Szczyt</h1>
+    <h1 class="text-4xl lg:text-5xl  uppercase font-light ">Tatry Grand Hotel</h1>
     <h2 class="text-xl lg:text-3xl mb-4 lg:mb-10 font-light ">Zanurz się w Ciszy i Spokoju Górskiej Krainy
     </h2>
 
