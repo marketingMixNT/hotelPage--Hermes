@@ -1,5 +1,6 @@
 import Swiper from "swiper";
-import {  FreeMode } from "swiper/modules";
+// import {  FreeMode } from "swiper/modules";
+import { Autoplay } from 'swiper/modules';
 import "swiper/swiper-bundle.css";
 
 new Swiper(".cottages", {
@@ -20,8 +21,8 @@ new Swiper(".cottages", {
     },
     spaceBetween: 80,
     autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
+        delay: 5500,
+        disableOnInteraction: true,
     },
-    modules: [FreeMode ],
+    modules: [Autoplay ],
 });
