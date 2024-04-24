@@ -20,12 +20,12 @@
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden ">
     
 
         <x-preloader/>
         <x-header.main/>
-        <main>
+        <main >
             
             {{ $slot }}
 
