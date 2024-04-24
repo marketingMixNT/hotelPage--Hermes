@@ -11,5 +11,7 @@
         @include('pages.home.sections.apartments-swiper')
         @include('pages.home.sections.restaurant-menu')
         @include('pages.home.sections.restaurant-bar')
+        @include('pages.home.sections.pool')
+        @include('pages.home.sections.contact')
 
     </x-layouts.default>

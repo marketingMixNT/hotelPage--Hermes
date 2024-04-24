@@ -1,7 +1,7 @@
 <x-section class="2xl:pt-40 pb-20 bg-bgSecondary relative">
-    <x-grid>
+    <x-grid class="relative">
         <div
-            class="xl:col-start-1 xl:col-end-7 xl:mt-48 3xl:ml-20 flex flex-col gap-32 xl:gap-64 items-start  mb-10 xl:mb-0  xl:mr-40  2xl:mr-56 ">
+            class="xl:col-start-1 xl:col-end-7 xl:mt-48 3xl:ml-20 flex flex-col gap-32 xl:gap-64 items-start  mb-10 xl:mb-0  xl:mr-40  2xl:mr-56 relative">
             <div class="pr-0 sm:pr-20 md:pr-40 xl:pr-0">
 
                 <h2 class="heading heading--pink">Odkryj bar, gdzie góry są na wyciągnięcie ręki</h2>
@@ -34,10 +34,11 @@
         </div>
 
 
-        <div class="xl:col-start-7 xl:col-end-13 max-h-[500px] md:max-h-[700px] xl:max-h-[1000px] pr-0 sm:pr-20 md:pr-40 xl:pr-0">
+        <div class="xl:col-start-7 xl:col-end-13  pr-0 sm:pr-20 md:pr-40 xl:pr-0 relative">
             <img src="{{ asset('assets/images/8.jpeg') }}" alt="wnętrze baru"
-                class="rounded-lg  h-full w-full object-cover  sticky top-40"></img>
+                class="rounded-lg  max-h-[500px] md:max-h-[700px] xl:max-h-[1000px] w-full object-cover  sticky top-40 "></img>
         </div>
+       
 
 
 
@@ -45,7 +46,7 @@
 </x-section>
 
 <section class="px-10 xl:px-20 pb-20 bg-bgSecondary relative">
-    <x-grid>
+    <x-grid class="pt-32">
         <p
             class="xl:col-start-1 xl:col-end-7 font-primary font-normal text-fontSecondary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl xl:mt-12 max:mt-24  leading-snug tracking-wide mb-12">
             <span class="font-normal uppercase"> Nasz bar to nie tylko miejsce odpoczynku</span>, ale przestrzeń, gdzie
