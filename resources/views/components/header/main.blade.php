@@ -4,7 +4,7 @@
     {{-- left side --}}
 
     <div
-        class="border border-[#ffffff70] rounded-lg flex justify-between items-center button relative lg:px-4   lg:gap-3 hover:border-white duration-500 group">
+        class="border border-[#ffffff70] rounded-lg flex justify-between items-center button relative lg:px-4   lg:gap-3 hover:border-white duration-500 group z-50" style="z-index: 1000000">
         <div class="flex justify-center items-center ml-1 lg:ml-0 mt-1 ">
 
             <x-header.hamburger />

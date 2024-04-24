@@ -25,6 +25,7 @@
 
         <x-preloader/>
         <x-header.main/>
+        <x-menu/>
         <main >
             
             {{ $slot }}
