@@ -2,6 +2,8 @@ let lastScrollTop = 0;
 const navbar = document.querySelector("#header");
 const heroSection = document.querySelector("#header-hero");
 
+
+
 window.addEventListener(
     "scroll",
     function () {

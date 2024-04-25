@@ -4,23 +4,27 @@ import "./Partials/preloader";
 import "./Partials/smoothScroll";
 import "./Partials/headerScroll";
 import "./Partials/marquee";
+import "./Partials/menuImages";
 import "./Partials/swiper";
+import "./Partials/swiperRoomPhotos";
 
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var menuItems = document.querySelectorAll("[data-bg]");
-    var bgElement = document.querySelector("#test");
+window.addEventListener('scroll', () => {
+    const h2Element = document.querySelector('#invisible');
+    if(window.scrollY >= 15) {
+        h2Element.classList.add('opacity-0');
+    } else {
+        h2Element.classList.remove('opacity-0');
+    }
+});
 
-    menuItems.forEach(function(menuItem) {
-        menuItem.addEventListener('mouseover', function() {
-            var bgImage = this.getAttribute("data-bg");
-            bgElement.style.backgroundImage = "url('" + bgImage + "')";
-        });
 
-        menuItem.addEventListener('mouseout', function() {
-            bgElement.style.backgroundImage = "url('/assets/images/12.jpeg')";
-        });
-    });
+window.addEventListener('scroll', () => {
+    const divElement = document.querySelector('div.absolute.top-0.left-0.right-0.bottom-0.bg-black');
+    let opacityValue = 0.3 + (window.scrollY / 1000) * 0.4;
+    if(opacityValue < 0.3) opacityValue = 0.3;
+    if(opacityValue > 0.8) opacityValue = 0.8;
+    divElement.style.opacity = opacityValue;
 });

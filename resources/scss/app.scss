@@ -56,3 +56,22 @@ p {
     left: 6px;
     right: 6px;
 }
+
+
+.btn::after{
+  content: '';
+  border: 1px solid #b08353;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+
+  
+  @apply rounded-lg duration-500 opacity-40;
+
+  &:hover{
+      @apply group-hover:opacity-100
+  
+  }
+}

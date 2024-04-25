@@ -20,7 +20,7 @@
 
 
     {{-- logo center --}}
-    <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo"
+    <a href="{{route('home')}}"><img src="{{ asset('assets/logo.png') }}" alt="logo"
             class="w-20 md:w-24 2xl:w-28  duration-500 absolute top-6 md:top-3 left-1/2 transform -translate-x-1/2"></a>
     <div>
 
