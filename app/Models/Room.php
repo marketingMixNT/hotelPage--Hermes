@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Support\Arr;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Room
 {
@@ -71,5 +72,14 @@ class Room
                 'photos' => ['assets/images/rooms/1.jpeg','assets/images/rooms/2.jpeg','assets/images/rooms/3.jpeg','assets/images/rooms/4.jpeg','assets/images/rooms/5.jpeg']
             ],
         ];
+    }
+
+    public static function find(string $name): array{
+        $room =  Arr::first(static::all(), fn ($room) => $room['name'] == $name);
+
+        if(!$room){
+            abort(404);
+        }
+        return $room;
     }
 }

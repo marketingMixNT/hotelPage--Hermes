@@ -1,7 +1,7 @@
 <x-section class="bg-bgThird 2xl:pt-40 pb-40">
 
     <div class="flex flex-col xs:flex-row gap-4 xs:gap-0 justify-between items-center">
-        <h2 class=" heading">Nasze Pokoje</h2>
+        <h2 class=" heading">Pozostałe Pokoje</h2>
         <a href="#" class="link-dotted">Zobacz
             wszystkie</a>
     </div>

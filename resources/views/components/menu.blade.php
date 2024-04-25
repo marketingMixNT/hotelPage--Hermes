@@ -24,10 +24,8 @@
                 <ul class=" flex justify-center items-center flex-col gap-2 ">
 
                     <x-menu_item href="{{route('rooms')}}" data-bg="/assets/images/1.jpeg">Pokoje</x-menu_item>
-                    <x-menu_item href="" data-bg="/assets/images/2.jpeg">Restauracja</x-menu_item>
-                    <x-menu_item href="" data-bg="/assets/images/3.jpeg">Menu</x-menu_item>
-                    <x-menu_item href="" data-bg="/assets/images/4.jpeg">Galeria</x-menu_item>
-                    <x-menu_item href="" data-bg="/assets/images/5.jpeg">Kontakt</x-menu_item>
+                    <x-menu_item href="{{route('restaurant')}}" data-bg="/assets/images/2.jpeg">Restauracja</x-menu_item>
+                    <x-menu_item href="{{route('contact')}}" data-bg="/assets/images/5.jpeg">Kontakt</x-menu_item>
                 </ul>
 
                 <div class=" flex flex-col justify-center items-center mt-16 gap-1">

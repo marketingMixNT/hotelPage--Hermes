@@ -1,6 +1,6 @@
 <section class="bg-bgThird  pb-40 relative">
 
-    <div class="px-10 xl:px-20  ">
+    <div class="px-10 xl:px-20 ">
 
         <div class="flex flex-col xs:flex-row gap-4 xs:gap-0 justify-between items-center ">
             <h2 class=" heading">Nasze Pokoje</h2>
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="border border-primary-400 rounded-lg py-3 px-6 mt-12 btn relative border-opacity-40 group hover:border-opacity-100 duration-500">
-                    <a href="#" class="uppercase font-semibold font-primary text-fontPrimary flex justify-center items-center gap-2 z-20"><span class="z-10"> Zobacz pokój</span> <img src="{{asset('assets/icons/arrow-right.svg')}}" alt="" class="w-8 z-10 group-hover:translate-x-2 duration-500"></a>
+                    <a href="{{route('room',$room['name'])}}" class="uppercase font-semibold font-primary text-fontPrimary flex justify-center items-center gap-2 z-20"><span class="z-10"> Zobacz pokój</span> <img src="{{asset('assets/icons/arrow-right.svg')}}" alt="" class="w-8 z-10 group-hover:translate-x-2 duration-500"></a>
                 </div>
                 
                 
