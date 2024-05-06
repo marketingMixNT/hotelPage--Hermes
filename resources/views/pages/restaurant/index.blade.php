@@ -7,14 +7,14 @@
        
        <x-header.hero--secondary title="Restauracja" subtitle="lorem ipsum dolor sit amet" />
 
-     @include('pages.restaurant.sections.1_section')
-     @include('pages.restaurant.sections.2_section')
-     @include('pages.restaurant.sections.3_section')
-     @include('pages.restaurant.sections.4_section')
-     @include('pages.restaurant.sections.5_section')
-     @include('pages.restaurant.sections.6_section')
-     @include('pages.restaurant.sections.7_section')
-     @include('pages.restaurant.sections.8_section')
+     @include('pages.restaurant.sections.1_about')
+     @include('pages.restaurant.sections.2_menu-opening')
+     @include('pages.restaurant.sections.3_hero-opinion')
+     @include('pages.restaurant.sections.4_chef')
+     @include('pages.restaurant.sections.5_inside')
+     @include('pages.restaurant.sections.6_ingredients')
+     @include('pages.restaurant.sections.7_bar')
+     @include('pages.restaurant.sections.8_map')
        
 
     </x-layouts.default>

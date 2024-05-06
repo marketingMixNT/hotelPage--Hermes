@@ -1,63 +1,15 @@
 @use "./hamburger.scss";
 @use "./menu.scss";
 
+@use "./base/typography.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-    @apply font-primary;
-}
-p {
-    @apply font-text;
-}
 
-.link {
-    @apply uppercase text-fontWhite font-primary text-sm mt-1 hover:text-fontThird duration-500;
-    &--gold {
-        @apply text-fontPrimary;
-    }
-    &-dotted {
-        @apply font-text font-semibold border-b border-dashed pb-1 border-fontPrimary text-fontPrimary text-sm leading-normal tracking-wide hover:text-fontThird duration-500 uppercase;
-        &--white {
-            @apply border-fontWhite text-fontWhite;
-        }
-        &--pink {
-            @apply text-fontSecondary border-fontSecondary;
-        }
-    }
-}
 
-.heading {
-    @apply font-primary font-semibold md:font-normal  text-fontPrimary text-2xl md:text-3xl 2xl:text-4xl  leading-snug tracking-wide;
-    &--pink {
-        @apply text-fontSecondary;
-    }
-    &--black {
-        @apply text-black;
-    }
-    &--small{
-        @apply text-lg md:text-xl 
-    }
-    &--big{
-        @apply 3xl:text-6xl
-    }
-}
-.text {
-    @apply font-text font-light text-fontPrimary  leading-normal tracking-wide text-base xl:text-sm 3xl:text-base;
-    &--pink {
-        @apply text-fontSecondary;
-    }
-    &--black {
-        @apply text-black;
-    }
-}
+
 
 .menu-box::after {
     content: "";

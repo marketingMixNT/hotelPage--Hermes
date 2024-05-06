@@ -1,4 +1,4 @@
-<x-sections.standard sectionClasses="bg-bgFourth pb-40">
+<x-sections.standard sectionClasses="bg-bgFourth pb-20 xl:pb-40">
 
     {{-- left side --}}
     <div
@@ -12,14 +12,14 @@
                 <h4 class="heading heading--black heading--small">Szef Kuchni Tatry Grand Hotel</h4>
             </div>
 
-            <div class="space-y-6 ml-16">
+            <div class="space-y-6 xl:ml-16">
 
-                <p class=" text text--black ">
+                <p class="text text--black ">
                     Piotr Nowosielski, szef kuchni w Hotelu Tatry Grand, wciela się w doskonałość kulinarnej sztuki,
                     łącząc tradycję z nowoczesnością, tworząc dania, które kuszą zmysły swoją harmonią smaków i estetyką
                     prezentacji.
                 </p>
-                <p class=" text text--black ">
+                <p class="text text--black ">
                     Jego pasja do kulinariów jest równie silna, co nieustająca chęć eksperymentowania z nowymi
                     technikami i składnikami, zawsze inspirowany lokalną kulturą i światowymi trendami kulinarnymi.
                     Poświęca wiele czasu na doskonalenie swojego rzemiosła, stale poszukując doskonałości w każdym
@@ -39,4 +39,3 @@
 </x-sections.standard>
 
 
-<p style=""></p>

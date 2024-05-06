@@ -3,7 +3,7 @@
 
     <div class="border border-primary-400  max-w-[1600px] mx-auto mt-20 grid grid-cols-12 p-20 relative menu-box">
 
-        <div class="col-start-1 col-end-3 flex flex-col justify-between">
+        <div class="col-start-1 col-end-3 flex flex-col justify-between gap-20">
             <div class="space-y-6">
 
                 <h2 class="heading uppercase">Nasz adres</h2>
@@ -35,7 +35,7 @@
 
         </div>
 
-        <div class="col-start-4 col-end-13 h-full w-full min-h-[800px] xl:ml-20 xl:pr-20">
+        <div class="col-start-4 col-end-13 h-full w-full xl:min-h-[800px] xl:ml-20 xl:pr-20">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.5473536931468!2d20.00688517761095!3d49.47416687142235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715e5905e21c0ed%3A0x159c133ae9b83572!2sMarketingMix!5e0!3m2!1spl!2spl!4v1714992737684!5m2!1spl!2spl"
                 style="border:0;" allowfullscreen="" loading="lazy" class="h-full w-full"
