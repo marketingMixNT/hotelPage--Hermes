@@ -20,30 +20,42 @@ p {
 
 .link {
     @apply uppercase text-fontWhite font-primary text-sm mt-1 hover:text-fontThird duration-500;
-    &--gold{
-      @apply text-fontPrimary
+    &--gold {
+        @apply text-fontPrimary;
     }
     &-dotted {
         @apply font-text font-semibold border-b border-dashed pb-1 border-fontPrimary text-fontPrimary text-sm leading-normal tracking-wide hover:text-fontThird duration-500 uppercase;
         &--white {
             @apply border-fontWhite text-fontWhite;
         }
-        &--pink{
-          @apply text-fontSecondary border-fontSecondary
+        &--pink {
+            @apply text-fontSecondary border-fontSecondary;
         }
     }
 }
 
 .heading {
     @apply font-primary font-semibold md:font-normal  text-fontPrimary text-2xl md:text-3xl 2xl:text-4xl  leading-snug tracking-wide;
-    &--pink{
-      @apply text-fontSecondary
+    &--pink {
+        @apply text-fontSecondary;
+    }
+    &--black {
+        @apply text-black;
+    }
+    &--small{
+        @apply text-lg md:text-xl 
+    }
+    &--big{
+        @apply 3xl:text-6xl
     }
 }
 .text {
     @apply font-text font-light text-fontPrimary  leading-normal tracking-wide text-base xl:text-sm 3xl:text-base;
-    &--pink{
-      @apply text-fontSecondary
+    &--pink {
+        @apply text-fontSecondary;
+    }
+    &--black {
+        @apply text-black;
     }
 }
 
@@ -57,21 +69,23 @@ p {
     right: 6px;
 }
 
+.link-btn {
+    @apply border border-primary-400 rounded-lg py-3 px-6 mt-12  relative border-opacity-40  hover:border-opacity-100 duration-500 uppercase font-semibold font-primary text-fontPrimary flex justify-center items-center;
 
-.btn::after{
-  content: '';
-  border: 1px solid #b08353;
-  position: absolute;
-  top: 2px;
-  bottom: 2px;
-  left: 2px;
-  right: 2px;
+    &:hover ::after {
+      border: 1px solid red;
+    }
+    &::after {
+        content: "";
+        border: 1px solid #b0835340;
+        position: absolute;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
 
-  
-  @apply rounded-lg duration-500 opacity-40;
+        @apply rounded-lg duration-500 ;
 
-  &:hover{
-      @apply group-hover:opacity-100
-  
-  }
+        
+    }
 }
