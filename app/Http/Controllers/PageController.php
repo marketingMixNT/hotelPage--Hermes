@@ -25,6 +25,14 @@ class PageController extends Controller
     {
         return view('pages.restaurant.index');
     }
+    public function attractions()
+    {
+        return view('pages.attractions.index');
+    }
+    public function spa()
+    {
+        return view('pages.spa.index');
+    }
     public function contact()
     {
         return view('pages.contact.index');

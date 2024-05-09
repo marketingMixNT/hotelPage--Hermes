@@ -1,5 +1,5 @@
 <section id="header-hero"
-class="relative h-screen w-full  bg-blend-multiply bg-center bg-cover bg-fixed bg" style="background-image: url('{{asset('assets/images/restaurant/1.jpeg')}}')"> 
+class="relative h-screen w-full  bg-blend-multiply bg-center bg-cover bg-fixed bg" {{$attributes}} > 
 
 <div class="absolute top-0 left-0 right-0 bottom-0 bg-black" style="opacity: .3">
 

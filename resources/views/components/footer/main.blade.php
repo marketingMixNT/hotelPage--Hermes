@@ -62,12 +62,13 @@
 
         <div class="border-r border-fontThird py-32 w-1/2 flex justify-center items-center">
 
-            <ul class="space-y-3">
-                <li><a href="#" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Item 1</a></li>
-                <li><a href="#" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Item 2</a></li>
-                <li><a href="#" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Item 3</a></li>
-                <li><a href="#" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Item 4</a></li>
-                <li><a href="#" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Item 5</a></li>
+            <ul class="space-y-3 text-center">
+                <li><a href="{{route('rooms')}}" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Pokoje</a></li>
+                <li><a href="{{route('restaurant')}}" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Restauracja</a></li>
+                <li><a href="{{route('spa')}}" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Spa</a></li>
+                <li><a href="{{route('attractions')}}" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Atrakcje</a></li>
+                <li><a href="{{route('contact')}}" class="font-primary text-fontWhite text-3xl uppercase hover:text-fontThird duration-500">Kontakt</a></li>
+      
             </ul>
         </div>
         <div class="py-48 w-1/2 flex flex-col justify-center items-center">

@@ -5,7 +5,7 @@
         'Odkryj luksus i komfort w Tatry Grand Hotel - Twoim idealnym schronieniu w sercu Zakopanego. Rezerwuj teraz!')
 
        
-       <x-header.hero--secondary title="Restauracja" subtitle="lorem ipsum dolor sit amet" />
+       <x-header.hero--secondary title="Restauracja" subtitle="lorem ipsum dolor sit amet" style="background-image: url('{{asset('assets/images/restaurant/1.jpeg')}}')"/>
 
      @include('pages.restaurant.sections.1_about')
      @include('pages.restaurant.sections.2_menu-opening')
