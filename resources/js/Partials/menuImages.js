@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var menuItems = document.querySelectorAll("[data-bg]");
-    var bgElement = document.querySelector("#test");
+    const menuItems = document.querySelectorAll("[data-bg]");
+    const bgElement = document.querySelector("#test");
 
     menuItems.forEach(function(menuItem) {
         menuItem.addEventListener('mouseover', function() {
-            var bgImage = this.getAttribute("data-bg");
+            const bgImage = this.getAttribute("data-bg");
             bgElement.style.backgroundImage = "url('" + bgImage + "')";
         });
 
         menuItem.addEventListener('mouseout', function() {
-            bgElement.style.backgroundImage = "url('/assets/images/12.jpeg')";
+            bgElement.style.backgroundImage = "url('/assets/menu/main.jpg')";
         });
     });
 });

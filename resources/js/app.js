@@ -7,6 +7,7 @@ import "./Partials/marquee";
 import "./Partials/menuImages";
 import "./Partials/swiper";
 import "./Partials/swiperRoomPhotos";
+import "./Partials/obserever"
 
 
 

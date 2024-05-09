@@ -1,0 +1,43 @@
+@use "./hamburger.scss";
+@use "./menu.scss";
+
+@use "./base/typography.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.menu-box::after {
+    content: "";
+    border: 1px solid #b08353;
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+}
+
+.link-btn {
+    @apply border border-primary-400 rounded-lg py-3 px-6 mt-12  relative border-opacity-40  hover:border-opacity-100 duration-500 uppercase font-semibold font-primary text-fontPrimary flex justify-center items-center;
+
+    &:hover ::after {
+      border: 1px solid red;
+    }
+    &::after {
+        content: "";
+        border: 1px solid #b0835340;
+        position: absolute;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+
+        @apply rounded-lg duration-500 ;
+
+        
+    }
+}
