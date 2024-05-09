@@ -26,7 +26,7 @@ class="bg-bgThird">
 
     <div class="mt-20 flex flex-col lg:flex-row justify-between  px-10 xl:px-20 2xl:px-40">
 
-        <div class="lg:w-1/2 flex flex-col justify-start items-start">
+        <div class="lg:w-1/2 flex flex-col justify-start items-start md:opacity-1 fade-in">
         
             <div class="flex flex-col justify-start items-start gap-2">
                 <div class="flex justify-center items-center gap-4"><img src="{{ asset('assets/icons/users.svg') }}"
@@ -52,9 +52,9 @@ class="bg-bgThird">
         </div>
 
 
-        <div class="lg:w-1/2">
+        <div class="lg:w-1/2 md:opacity-1 fade-in">
 
-            <h2 class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12 lg:-ml-52">~ Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            <h2 class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12 lg:-ml-52 ">~ Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
 
             <p class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12">{{$room['description']}}</p>
 

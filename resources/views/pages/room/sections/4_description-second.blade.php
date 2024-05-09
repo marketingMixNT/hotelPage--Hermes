@@ -4,7 +4,7 @@
    
     <x-grid>
         
-    <div class="xl:col-start-1 xl:col-end-5 xl:mt-24  flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0">
+    <div class="xl:col-start-1 xl:col-end-5 xl:mt-24  flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 md:opacity-1 fade-in">
 
 
         <h2 class="heading">Pięć pokojowych światów w Tatry Grand Hotel czeka na odkrycie</h2>
@@ -35,7 +35,7 @@
    
     <x-grid>
         
-    <div class="xl:col-start-1 xl:col-end-5 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0">
+    <div class="xl:col-start-1 xl:col-end-5 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 md:opacity-1 fade-in">
 
         <h2 class="heading">Pięć pokojowych światów w Tatry Grand Hotel czeka na odkrycie</h2>
         <p class=" text">

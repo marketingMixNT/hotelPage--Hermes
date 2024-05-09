@@ -9,7 +9,7 @@
                 class="rounded-lg h-full w-full object-cover"></img>
         </div>
         <div
-            class="xl:col-start-9 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0">
+            class="xl:col-start-9 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 md:opacity-1 fade-in">
 
 
             <h2 class="heading">Pięć pokojowych światów w Tatry Grand Hotel czeka na odkrycie</h2>
@@ -37,7 +37,7 @@
     <x-grid>
 
         <div
-            class="xl:col-start-1 xl:col-end-3 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 lg:mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 order-1 lg:order-none pt-20">
+            class="xl:col-start-1 xl:col-end-3 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 lg:mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 order-1 lg:order-none pt-20 md:opacity-1 fade-in">
 
 
             <h2 class="heading">Udogodnienia</h2>
@@ -92,7 +92,7 @@
                 class="rounded-lg h-full w-full object-cover"></img>
         </div>
         <div
-            class="xl:col-start-8 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 mt-20 lg:mt-0">
+            class="xl:col-start-8 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 mt-20 lg:mt-0 md:opacity-1 fade-in">
 
 
             <h2 class="heading lg:-ml-20">~ Pięć pokojowych światów w Tatry Grand Hotel</h2>

@@ -6,7 +6,7 @@
     bg-cover bg-center bg-fixed relative bg-gray-300 bg-blend-multiply flex justify-end items-end">
 
 
-    <div class="">
+    <div class="md:opacity-1 fade-in">
         <p class="xs:text-xl md:text-2xl xl:text-3xl text-fontWhite font-light font-text leading-normal tracking-wide"> <span
                 class="uppercase font-normal text-base mr-8">NASZE WIDOKI
             </span> <span class="font-normal">ZANURZ SIĘ W NIEZAKŁÓCONEJ KRASIE GÓRSKIEGO KRAJOBRAZU</span>
