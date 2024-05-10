@@ -32,6 +32,8 @@
 
             
         </main>
+
+        <x-mobile_buttons/>
         <x-footer.main/>
 
 

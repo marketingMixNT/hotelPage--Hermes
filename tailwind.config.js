@@ -15,9 +15,11 @@ export default {
             colors: {
                 primary: {
                     400: "#b08353",
+                    600:'#8c6842'
                 },
                 secondary: {
                     400: "#202e20",
+                    600:'#172117'
                 },
                 bgPrimary: "#fffcf4",
                 bgSecondary: "#202e20",

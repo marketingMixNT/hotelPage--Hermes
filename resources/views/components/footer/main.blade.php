@@ -1,4 +1,4 @@
-<footer class="bg-secondary-400 bg-fixed  pt-16 pb-6 ">
+<footer class="bg-secondary-400 bg-fixed  pt-16 pb-28 lg:pb-6 ">
     <div class="px-10 xl:px-20  mx-auto w-full ">
 
         <div class="text-center mb-10 lg:mb-20">
