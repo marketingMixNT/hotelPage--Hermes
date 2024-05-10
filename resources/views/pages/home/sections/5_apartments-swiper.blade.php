@@ -2,7 +2,7 @@
 
     <div class="flex flex-col xs:flex-row gap-4 xs:gap-0 justify-between items-center">
         <h2 class=" heading">Nasze Pokoje</h2>
-        <a href="#" class="link-dotted">Zobacz
+        <a href="{{route('rooms')}}" class="link-dotted">Zobacz
             wszystkie</a>
     </div>
 

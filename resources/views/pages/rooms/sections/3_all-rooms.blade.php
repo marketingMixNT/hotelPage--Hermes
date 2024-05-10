@@ -20,7 +20,7 @@
 
     <div class="pt-40 flex flex-col gap-10">
         <div class="px-10 xl:px-20 2xl:px-40 ">
-            <a href="#" class="heading hover:text-fontThird duration-500 uppercase">{{ $room['name'] }}</a>
+            <a href="{{route('room', $room['name'])}}" class="heading hover:text-fontThird duration-500 uppercase">{{ $room['name'] }}</a>
             <span class="text ml-4">{{ $room['short_description'] }}</span>
         </div>
 

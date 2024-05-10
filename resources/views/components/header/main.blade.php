@@ -12,7 +12,7 @@
         </div>
         <span class="text-fontWhite hidden lg:inline-block">|</span>
         <div><a
-                href=""class="link hidden lg:inline-block " style="margin-top:-1px">Rezerwacja</a>
+                href="#"class="link hidden lg:inline-block " style="margin-top:-1px">Rezerwacja</a>
         </div>
 
     </div>
@@ -26,7 +26,7 @@
 
         {{-- right side --}}
         <div class="hidden lg:flex justify-between items-center gap-3 ">
-            <a href="#" class="link">kontakt</a>
+            <a href="{{route('contact')}}" class="link">kontakt</a>
 
             <span class="text-fontWhite">|</span>
             <div class="mt-1 flex gap-2">

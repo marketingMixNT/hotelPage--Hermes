@@ -3,22 +3,18 @@
 
     <x-grid>
         <div
-            class="xl:col-start-1 xl:col-end-8 rounded-lg min-h-[500px] xl:min-h-[1000px] w-full object-cover order-1 lg:order-none">
+            class="xl:col-start-1 xl:col-end-8 rounded-lg min-h-[500px] xl:max-h-[1000px] xl:min-h-[1000px] w-full object-cover order-1 lg:order-none">
 
-            <img src="{{ asset('assets/images/5.jpeg') }}" alt="wnętrze hotelu"
+            <img src="{{ asset('assets/images/1.jpeg') }}" alt="wnętrze hotelu"
                 class="rounded-lg h-full w-full object-cover"></img>
         </div>
         <div
             class="xl:col-start-9 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 md:opacity-1 fade-in">
 
 
-            <h2 class="heading">Pięć pokojowych światów w Tatry Grand Hotel czeka na odkrycie</h2>
+            <h2 class="heading">{{$room['title_one']}}</h2>
             <p class=" text">
-                Zanurz się w ekskluzywności pięciu niepowtarzalnych środowisk, które oferuje Tatry Grand Hotel. Każdy
-                pokój to dzieło sztuki, od intymnych standardów po królewskie apartamenty. Odkryj miejsce, gdzie design
-                spotyka funkcjonalność, a <span class="uppercase font-semibold">każdy kąt opowiada inną historię.</span>
-                Zapraszamy do eksploracji naszych przestrzeni i wybrania tej, która najlepiej oddaje Twój własny styl
-                odpoczynku.
+               {{$room['desc_one']}}
             </p>
             {{-- <a href="#" class="link-dotted">Odkryj je wszystkie</a> --}}
         </div>
@@ -37,41 +33,22 @@
     <x-grid>
 
         <div
-            class="xl:col-start-1 xl:col-end-3 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 lg:mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 order-1 lg:order-none pt-20 md:opacity-1 fade-in">
+            class="xl:col-start-1 xl:col-end-4 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 lg:mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 order-1 lg:order-none pt-20 md:opacity-1 fade-in">
 
 
             <h2 class="heading">Udogodnienia</h2>
-            <ul class="space-y-2  lg:mt-12">
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
-                <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
-                        alt="" class="w-3"> Lorem, ipsum.</li>
+            <ul class=" lg:mt-12 flex flex-col justify-start items-start gap-4">
+       
+                        @foreach ($room['amenities'] as $item)
+                        <li class="flex justify-center items-center gap-3 text"><img src="{{ asset('assets/icons/star.svg') }}"
+                            alt="" class="w-3"> {{$item}}</li>
+                        @endforeach
             </ul>
         </div>
 
-        <div class="xl:col-start-4 xl:col-end-13 rounded-lg min-h-[500px] xl:min-h-[1000px] w-full object-cover ">
+        <div class="xl:col-start-5 xl:col-end-13 rounded-lg min-h-[500px] xl:min-h-[1000px] w-full object-cover ">
 
-            <img src="{{ asset('assets/images/5.jpeg') }}" alt="wnętrze hotelu"
+            <img src="{{ asset('assets/images/2.jpeg') }}" alt="wnętrze hotelu"
                 class="rounded-lg h-full w-full object-cover"></img>
         </div>
 
@@ -88,20 +65,16 @@
     <x-grid>
         <div class="xl:col-start-1 xl:col-end-5 rounded-lg min-h-[500px] xl:min-h-[700px] w-full object-cover pl-0 sm:pl-20 md:pl-40 xl:pl-0">
 
-            <img src="{{ asset('assets/images/5.jpeg') }}" alt="wnętrze hotelu"
+            <img src="{{ asset('assets/images/rooms/1.jpeg') }}" alt="wnętrze hotelu"
                 class="rounded-lg h-full w-full object-cover"></img>
         </div>
         <div
             class="xl:col-start-8 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 mt-20 lg:mt-0 md:opacity-1 fade-in">
 
 
-            <h2 class="heading lg:-ml-20">~ Pięć pokojowych światów w Tatry Grand Hotel</h2>
+            <h2 class="heading lg:-ml-20">~ {{$room['title_two']}}</h2>
             <p class=" text">
-                Zanurz się w ekskluzywności pięciu niepowtarzalnych środowisk, które oferuje Tatry Grand Hotel. Każdy
-                pokój to dzieło sztuki, od intymnych standardów po królewskie apartamenty. Odkryj miejsce, gdzie design
-                spotyka funkcjonalność, a <span class="uppercase font-semibold">każdy kąt opowiada inną historię.</span>
-                Zapraszamy do eksploracji naszych przestrzeni i wybrania tej, która najlepiej oddaje Twój własny styl
-                odpoczynku.
+                {{$room['desc_two']}}
             </p>
             {{-- <a href="#" class="link-dotted">Odkryj je wszystkie</a> --}}
         </div>

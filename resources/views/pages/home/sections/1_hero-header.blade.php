@@ -10,7 +10,7 @@ md:bg-[url('/public/assets/images/hero--desktop.jpeg')]
     <h2 class="text-xl lg:text-3xl mb-4 lg:mb-10 font-light ">Zanurz się w Ciszy i Spokoju Górskiej Krainy
     </h2>
 
-    <a href=""
+    <a href="{{route('rooms')}}"
         class="px-8 py-3  uppercase font-text bg-[#b0835370] hover:bg-primary-400 font-light text-sm duration-500 text-white tracking-wider rounded-lg">Zobacz
         nasze pokoje</a>
 </div>

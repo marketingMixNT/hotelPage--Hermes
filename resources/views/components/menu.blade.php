@@ -54,7 +54,7 @@
             </div>
             <div class="lg:w-1/2 hidden lg:flex justify-center items-center">
                 <div id="test"
-                    class=" w-[420px] h-[600px] rounded-t-full rounded-b-lg bg-cover" style="background-image: url('assets/menu/main.jpg');transition: background-image 0.5s ease-in-out;">
+                    class=" w-[460px] h-[600px] rounded-t-full rounded-b-lg bg-cover" style="background-image: url('assets/menu/main.jpg');transition: background-image .2s ease-in-out;">
 
                 </div>
             </div>

@@ -9,7 +9,7 @@
                         <p class=" text">
                             Zanurz się w ekskluzywności pięciu niepowtarzalnych środowisk, które oferuje Tatry Grand Hotel. Każdy pokój to dzieło sztuki, od intymnych standardów po królewskie apartamenty. Odkryj miejsce, gdzie design spotyka funkcjonalność, a <span class="uppercase font-semibold">każdy kąt opowiada inną historię.</span> Zapraszamy do eksploracji naszych przestrzeni i wybrania tej, która najlepiej oddaje Twój własny styl odpoczynku.
                         </p>
-                       <a href="#" class="link-dotted">Odkryj je wszystkie</a>
+                       <a href="{{route('rooms')}}" class="link-dotted">Odkryj je wszystkie</a>
                     </div>
 
                     <div class="xl:col-start-7 xl:col-end-13 rounded-lg min-h-[500px] xl:min-h-[1000px] w-full object-cover">

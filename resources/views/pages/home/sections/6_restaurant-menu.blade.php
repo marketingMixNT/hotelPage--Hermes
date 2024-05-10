@@ -17,7 +17,7 @@
                 zakopiańskiej tradycji. Od wyrafinowanych wnętrz, przez ofertę spa, po widoki na góry – wszystko zostało
                 dopracowane, by zapewnić niezapomniane wrażenia i komfort.
             </p>
-            <a href="#" class="link-dotted">Dowiedz się więcej</a>
+            <a href="{{route('rooms')}}" class="link-dotted">Dowiedz się więcej</a>
             <div class="border-t border-b border-primary-400 w-full  sm:py-3 mt-6 flex justify-between items-center">
                 <a href="#" class="link link--gold uppercase font-semibold ">Zobacz nasze menu </a><img src="{{asset('assets/icons/arrow-right.svg')}}" alt="" class="w-8">
             </div>

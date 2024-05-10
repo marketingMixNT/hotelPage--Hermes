@@ -54,7 +54,7 @@ class="bg-bgThird">
 
         <div class="lg:w-1/2 md:opacity-1 fade-in">
 
-            <h2 class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12 lg:-ml-52 ">~ Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            <h2 class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12 lg:-ml-52 ">~ {{$room['heading']}}</h2>
 
             <p class="font-primary font-normal text-fontPrimary xs:text-xl md:text-2xl xl:text-3xl mr-0 sm:mr-20 md:mr-40 xl:mr-0  max:text-4xl mt-12 max:mt-24 leading-relaxed tracking-wide mb-12">{{$room['description']}}</p>
 
