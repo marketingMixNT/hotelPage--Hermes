@@ -25,9 +25,9 @@
 
                     <x-menu_item href="{{route('rooms')}}" data-bg="/assets/menu/1.jpg">Pokoje</x-menu_item>
                     <x-menu_item href="{{route('restaurant')}}" data-bg="/assets/menu/2.jpg">Restauracja</x-menu_item>
-                    <x-menu_item href="{{route('spa')}}" data-bg="/assets/menu/3.jpg">Spa</x-menu_item>
+                    <x-menu_item href="{{route('spa')}}" data-bg="/assets/menu/4.jpg">Spa</x-menu_item>
                     <x-menu_item href="{{route('attractions')}}" data-bg="/assets/menu/5.jpg">Atrakcje</x-menu_item>
-                    <x-menu_item href="{{route('contact')}}" data-bg="/assets/menu/4.jpg">Kontakt</x-menu_item>
+                    <x-menu_item href="{{route('contact')}}" data-bg="/assets/menu/3.jpg">Kontakt</x-menu_item>
                 </ul>
 
                 <div class=" flex flex-col justify-center items-center mt-16 gap-1">

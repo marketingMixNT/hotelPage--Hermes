@@ -21,16 +21,22 @@
     
                 <div class="xl:col-start-1 xl:col-end-8 rounded-lg min-h-[500px] xl:min-h-[1000px] w-full object-cover xl:ml-20">
         
-                    <img src="{{asset('assets/images/17.jpeg')}}" alt="widok z hotelu Tatry Grand Hotel" class="rounded-lg h-full w-full object-cover"></img>
+                    <img src="{{asset('assets/images/4.jpeg')}}" alt="widok z hotelu Tatry Grand Hotel" class="rounded-lg h-full w-full object-cover"></img>
                 </div>
 
-                <div class="xl:col-start-9 xl:col-end-13 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0 md:opacity-0 fade-in">
-                    <h2 class="heading">Odkryj Malownicze Widoki w  Tatry Grand Hotel</h2>
+                <div class="xl:col-start-9 xl:col-end-13 mt-20 xl:mt-24 xl:ml-20 flex flex-col items-start gap-4 mb-10 xl:mb-0 mr-0 sm:mr-20 md:mr-56 xl:mr-0   md:opacity-0 fade-in">
+                    <h2 class="heading">Bądźmy w kontakcie</h2>
     <p class="text">
-        Otoczony majestatem Tatr, Tatry Grand Hotel oferuje nie tylko nocleg, ale prawdziwe okno na przyrodę. Każdy widok z naszych okien to jak żywy obraz, zmieniający się wraz z porami roku. <span class="uppercase font-semibold">Góry przywołują ciszę i spokój,</span> a Zakopane zachęca swoim bogactwem kultury i historii. Zapraszamy, abyś doświadczył tego unikalnego połączenia natury z luksusem, gdzie każdy dzień jest inspiracją i niezapomnianą przygodą.
+        Jeśli masz pytania, potrzebujesz dodatkowych informacji, czy po prostu chcesz podzielić się swoimi wrażeniami z pobytu, jesteśmy tutaj dla Ciebie. Tworzymy niepowtarzalną atmosferę, w której liczy się każdy moment i każde słowo. Zapraszamy do dzielenia się swoimi myślami i doświadczeniami z nami – każdy Gość jest dla nas wyjątkowy, a chcemy, abyś czuł się jak w domu.
     </p>
-    
-                               {{-- <a href="#" class="link-dotted">Odkryj je wszystkie</a> --}}
+    <div class="flex flex-col mt-6">
+
+        <div class="text-fontPrimary font-text"><span class="font-semibold">E:</span> <a href="#" class="text-sm mt-1 hover:text-fontThird duration-500 lowercase">kontakt@tatrygrandhotel.pl</a></div>
+        <div class="text-fontPrimary font-text"><span class="font-semibold">T:</span> <a href="#" class="link link--gold">+48 123 456 789</a></div>
+    </div>
+
+
+                               @include ('pages.contact.form')
                             </div>
         
                            

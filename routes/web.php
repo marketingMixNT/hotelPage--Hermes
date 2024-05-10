@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\PageController;
 
 
 
@@ -12,3 +13,4 @@ Route::get('/restauracja', [PageController::class, 'restaurant'])->name('restaur
 Route::get('/atrakcje', [PageController::class, 'attractions'])->name('attractions');
 Route::get('/spa', [PageController::class, 'spa'])->name('spa');
 Route::get('/kontakt', [PageController::class, 'contact'])->name('contact');
+Route::post('/kontakt', [FormController::class, 'contact_form'])->name('contact_form');
